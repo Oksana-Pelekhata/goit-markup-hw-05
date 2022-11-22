@@ -705,7 +705,9 @@ margin-bottom: 4px;
     position: relative;
     overflow: hidden;
 }
-.gallery-link:hover .gallery-popping-text {
+.gallery-link:hover .gallery-popping-text,
+.gallery-link:focus .gallery-popping-text
+{
     transform: translateY(0);
 }
 .gallery-popping-text {
